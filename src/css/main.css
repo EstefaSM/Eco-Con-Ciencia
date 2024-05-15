@@ -1,0 +1,106 @@
+.firtsBanner {
+    margin-top: 90px; 
+}
+
+@media (max-width: 768px) {
+    .navbar {
+      position: relative;
+    }
+}
+
+.firtsBanner {
+    position: relative;
+    z-index: 1;
+}
+
+.purpose h3 {
+    text-align: center;
+}
+
+.accordion-body {
+    text-align: justify;
+}
+
+#headingOne{
+    background-color: #F5EFE6;
+}
+
+.accordion-body {
+    background-color: #F5EFE6;
+    text-align: justify; 
+}
+
+.accordion-button:focus,
+.accordion-button:active {
+    background-color: #E8DFCA; 
+}
+
+.mainContent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.testimonials{
+    padding: 7px;
+    border-radius: 15px;
+    border-top: 1px;
+    border: 1px solid #1A4D2E;
+    background-color: #4f6f5262;
+}
+
+.testimonials img {
+    width: 60px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+
+.testimonials h4 {
+    padding: 5px;
+    text-align: center;
+}
+
+.testimonials text{
+    text-align: justify;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+.form button{
+    background-color: #1A4D2E;
+    color: #E8DFCA;
+}
+
+.data {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.blog {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 25px;
+    padding: 15px;
+    background-color: #4f6f5262;
+}
+
+.blog p{
+    text-align: justify;
+}
+
+.blog h3{
+    text-align: center;
+}
+
+.blog a{
+    text-decoration: none;
+    color: #1A4D2E;
+    font-weight: bold;
+}

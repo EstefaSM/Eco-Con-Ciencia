@@ -1,0 +1,31 @@
+:root {
+    --bg-dark: #1A4D2E;
+}
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #1A4D2E;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    background-color: #4F6F52;
+}
+
+.navbar {
+    background-color: #1A4D2E;
+    height: 100px;
+}
+
+.navbar a {
+    color: #E8DFCA;
+    text-decoration: none;
+}
+
+.navbar-brand img {
+    width: 80px;
+}
