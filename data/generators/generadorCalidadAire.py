@@ -18,4 +18,4 @@ def generarDatosCalidadAire():
 
     return listaDatos
 
-print(generarDatosCalidadAire())
+#print(generarDatosCalidadAire())

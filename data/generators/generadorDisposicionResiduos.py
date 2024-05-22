@@ -17,4 +17,4 @@ def generarDatosDisposicionResiduos():
 
     return listaDatos
 
-print(generarDatosDisposicionResiduos())
+#print(generarDatosDisposicionResiduos())

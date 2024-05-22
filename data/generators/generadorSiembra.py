@@ -16,4 +16,3 @@ def generarDatosSiembra():
 
     return listaDatos
 
-print(generarDatosSiembra())
