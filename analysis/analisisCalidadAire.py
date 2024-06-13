@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 
 from data.generators.generadorCalidadAire import generarDatosCalidadAire
 
+
 from helpers.generarTabla import crearTablaHTML
 
 
@@ -50,14 +51,14 @@ def construirDataFrameCalidadAire():
 
     #Graficando datos
     plt.figure(figsize=(20,20))
-    datosAgrupados.plot(kind='bar', color='green')
+    datosAgrupados.plot(kind='bar', color='red')
     plt.title('Calidad de aire por comuna en Medellín')
     plt.xlabel('Comuna')
     plt.ylabel('Ica (Índice calidad de aire)')
     plt.grid(True)
     plt.xticks(rotation=45)
     plt.savefig('./src/img/calidadAire.png', format='png', dpi=300)
-    #plt.show()
+    plt.show()
     
     #print("\n")
     #print(calidadAireDF)

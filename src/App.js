@@ -6,6 +6,7 @@ import AboutUs from './pages/AboutUs';
 import Nav from './components/Nav';
 import Aside from './components/Aside';
 import Footer from './components/Footer';
+import CalidadAire from './components/CalidadAire';
 
 const App = () => {
   return (
