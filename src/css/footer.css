@@ -1,18 +1,31 @@
 .footer {
     display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    background-color: #1A4D2E;
+    padding: 20px;
+}
+
+.text{
+    color: #E8DFCA;
+}
+
+.social-icon-footer img {
+    height: 30px;
+    margin: 5px;
+}
+
+.contactUs{
+    display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: #1A4D2E;
-    padding-top: 10px;
 }
 
-.footer a {
-    color: #E8DFCA;
-    text-decoration: none;
-    padding: 2px;
-}
-
-.footer p {
-    color: #E8DFCA;
+.logo {
+    height: 150px;
 }

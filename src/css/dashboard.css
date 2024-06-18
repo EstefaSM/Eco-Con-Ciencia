@@ -1,0 +1,46 @@
+:root {
+    --bg-dark: #1A4D2E;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 120px;
+}
+
+.siembra {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.siembra img{
+    height: 450px;
+}
+
+h1{
+    text-align: center;
+    padding: 5px;
+}
+
+.agua {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.agua img {
+    height: 450px;
+}

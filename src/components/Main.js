@@ -1,5 +1,5 @@
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Services from './Services';
 import AsideRight from './AsideRight';
 import Dashboard from '../pages/Dashboard';
@@ -106,7 +106,7 @@ return (
         </div>
         <hr/>
         <div className='secondBanner'>
-            <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleCaptions2" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <img src={imgFive} className="d-block w-100 img-fluid" alt="Medellín" />
@@ -125,12 +125,12 @@ return (
                         <div className="carousel-caption d-none d-md-block"></div>
                     </div>
                 </div>
-                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="prev">
                     <span className="carousel-control-prev-icon" aria-hidden="false"></span>
                     <span className="visually-hidden">Anterior</span>
                 </button>
-                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="false"></span>
+                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="next">
+                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
                     <span className="visually-hidden">Siguiente</span>
                 </button>
             </div>

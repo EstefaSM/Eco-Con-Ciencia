@@ -1,4 +1,5 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from '../components/Header';
 import Nav from '../components/Nav';
 import Main from '../components/Main';
@@ -16,12 +17,7 @@ const Home = () => {
       {<Header/>}
       <hr/>
       {<Main/>}
-      {/* {<Section/>}
-      {<Aside/>} */}
       {<Footer/>}
-      {/* {<Dashboard/>} */}
-      
-      
     </div>
   );
 };

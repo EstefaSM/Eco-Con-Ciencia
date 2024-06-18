@@ -1,0 +1,13 @@
+:root {
+    --background: #bcd0c1;
+    --logo: ##1a4d2e;
+    --testimonials: #7ca485;
+    --aside: #45503b;
+    --possible: #f4d58d;
+}
+
+.card {
+    background-color: var(--background);
+}
+
+

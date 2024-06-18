@@ -20,10 +20,10 @@ const Siembra = () => {
     }, []);
 
     return (
-        <div className='container-fluid'>
-            <div className="row" >
+        <div className='container-fluid' >
+            <div className="row siembra" >
+            <h1>Información Siembra de Árboles 2019</h1>
                 <div className='col-md-6'>
-                    <h1>Tabla de Siembra de Árboles</h1>
                     <Table striped bordered hover>
                         <thead>
                             <tr>
@@ -42,7 +42,7 @@ const Siembra = () => {
                     </Table>
                 </div>
                 <div className='col-md-6'>
-                <img src={siembra} className="card-img-top"  alt="Foto del testimonio" />
+                <img src={siembra} className="card-img-top"  alt="Gráfica" />
                 </div>
             </div>
         </div>

@@ -22,17 +22,17 @@
 }
 
 #headingOne{
-    background-color: #F5EFE6;
+    background-color: #bcd0c1;
 }
 
 .accordion-body {
-    background-color: #F5EFE6;
+    background-color: #bcd0c1;
     text-align: justify; 
 }
 
 .accordion-button:focus,
 .accordion-button:active {
-    background-color: #E8DFCA; 
+    background-color: #7ca485; 
 }
 
 .mainContent{
@@ -46,7 +46,7 @@
     border-radius: 15px;
     border-top: 1px;
     border: 1px solid #1A4D2E;
-    background-color: #4f6f5262;
+    background-color: #7ca485;
 }
 
 .testimonials img {
@@ -88,7 +88,7 @@
     flex-wrap: wrap;
     border-radius: 25px;
     padding: 15px;
-    background-color: #4f6f5262;
+    background-color: #7ca485;
 }
 
 .blog p{
