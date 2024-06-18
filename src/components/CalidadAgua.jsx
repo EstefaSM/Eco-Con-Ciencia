@@ -26,7 +26,7 @@ const CalidadAgua = () => {
     return (
         <div className='container-fluid'>
             <div className="row agua" >
-            <h1>Calidad del agua Valle del Aburrá 2018</h1>        
+            <h1>Calidad del agua  en el Valle de Aburrá 2018</h1>        
                 <div className='col-md-6'> 
                     <Table striped bordered hover>
                         <thead>

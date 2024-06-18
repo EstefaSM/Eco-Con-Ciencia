@@ -3,10 +3,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import avatarOne from '../img/avatarOne.jpg';
 import estefa from '../img/FotoEstefa.jpg';
 import sebas from '../img/FotoSebas.jpg';
+import manuel from '../img/fotoManuel.jpg'
 import Footer from '../components/Footer';
 import '../css/aboutus.css'
-import linkedin from '../img/linkedin.png'
-import github from '../img/github.png'
+import linkedin from '../img/linkedinLogo.png'
+import github from '../img/githubLogo.png'
 
 
 
@@ -35,9 +36,9 @@ const AboutUs = () => {
                   </div>
                </div>
                <div className='col-md-3 team'>
-                  <img src={avatarOne} className="card-img-top"  alt="Sebas" />
+                  <img src={manuel} className="card-img-top"  alt="Sebas" />
                   <h3>Manuel Pemberthy</h3>
-                  <p>Manuel, quien apoya el área de backend y la estructuración de la información en nuestra web: Es un miembro clave de nuestro equipo de desarrollo web, aportando su amplia experiencia en la gestión del backend y la estructuración de la información que se presenta en nuestra plataforma. Después de obtener su título en Ingeniería de Sistemas en la Universidad Autónoma, Manuel ha acumulado una sólida trayectoria trabajando en diversas empresas tecnológicas, donde ha demostrado su dominio en el diseño y mantenimiento de soluciones backend robustas y eficientes. </p>
+                  <p>Manuel, quien apoya el área de backend y la estructuración de la información en nuestra web: Es un miembro clave de nuestro equipo de desarrollo web, aportando su amplia experiencia en la gestión del backend y la estructuración de la información que se presenta en nuestra plataforma. </p>
                   <div className="social-icon">
                   <a href="#"  target='blank' class="social-icon"><img src={linkedin}   alt="iconoLinkedIn" /></a>
                   <a href="#"  target='blank' class="social-icon"><img src={github} className="social-icon"  alt="iconoLinkedIn" /></a>

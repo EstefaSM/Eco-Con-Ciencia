@@ -9,25 +9,37 @@ import '../css/footer.css';
 const Footer = () => {
     return (
         <div className='footer'>
+            <div className='footerLogo'>
             <a href="#"  target='blank' className="logo"><img src={logo}  className="logo" alt="iconoFacebook" /></a>
+            </div>
             <div className='contactUs'>
-                <h3 className='text'>Contáctate con el equipo de trabajo</h3>
-                <h6 className='text'>Juan Sebastián Zapata</h6>
+                <div className='title'><h4 className='text'>Contáctate con nuestro equipo de trabajo</h4></div>
+                <div className='prueba'> 
+                <div className='contactUsInfo'>
+                <p className='text'>Sebastián Zapata</p>
                 <div className="social-icon-footer">
                     <a href="https://www.linkedin.com/in/estefa-saldarriaga/"  target='blank' class="social-icon-footer"><img src={linkedin}   alt="iconoLinkedIn" /></a>
                     <a href="https://github.com/EstefaSM"  target='blank' ><img src={github}   alt="iconoLinkedIn" /></a>
                 </div>
-                <h6 className='text'>Estefanía Saldarriaga</h6>
+                </div>
+                <div className='contactUsInfo'>
+                <p className='text'>Estefanía Saldarriaga</p>
                 <div className="social-icon-footer">
                     <a href="https://www.linkedin.com/in/estefa-saldarriaga/"  target='blank' class="social-icon-footer"><img src={linkedin}   alt="iconoLinkedIn" /></a>
                     <a href="https://github.com/EstefaSM"  target='blank' ><img src={github}   alt="iconoLinkedIn" /></a>
                 </div>
-                <h6 className='text'>Manuel Pemberthy</h6>
+                </div>
+                <div className='contactUsInfo'>
+                <p className='text'>Manuel Pemberthy</p>
                 <div className="social-icon-footer">
                     <a href="https://www.linkedin.com/in/estefa-saldarriaga/"  target='blank' class="social-icon-footer"><img src={linkedin}   alt="iconoLinkedIn" /></a>
                     <a href="https://github.com/EstefaSM"  target='blank' ><img src={github}   alt="iconoLinkedIn" /></a>
                 </div>
-                <p className='text'>&copy; 2024 Eco Con Ciencia. Todos los derechos reservados.</p>              
+                </div>
+                </div>
+                <div className='rights'>
+                <p className='text'>&copy; 2024 Eco Con Ciencia. Todos los derechos reservados.</p>        
+                </div>      
         </div>
         </div>
         

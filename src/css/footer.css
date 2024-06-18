@@ -1,10 +1,10 @@
 .footer {
     display: flex;
-
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    height: 300px;
+    width: 100%;
     background-color: #1A4D2E;
     padding: 20px;
 }
@@ -19,13 +19,28 @@
 }
 
 .contactUs{
+    width: 80%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    text-align: center;
+}
+
+.contactUs 
+
+.contactUsInfo {
+    width: 80%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    
 }
 
 .logo {
     height: 150px;
+}
+
+.prueba {
+    display: flex;
 }
