@@ -25,10 +25,10 @@ plt.figure(figsize=(10, 6))
 
 for ciudad in filtrarCiudades:
     data_ciudad = agruparCiudadAno[agruparCiudadAno['Ciudad'] == ciudad]
-    plt.plot(data_ciudad['Ano'], data_ciudad['Arboles'], label=ciudad)
+    plt.plot(data_ciudad['Año'], data_ciudad['Arboles'], label=ciudad)
 
-plt.xlabel('Ano')
-plt.ylabel('Arboles')
+plt.xlabel('Año')
+plt.ylabel('Número de Árboles Sembrados')
 plt.title('Número de Árboles Sembrados por Año y Municipio')
 plt.legend()
 plt.grid(True)
