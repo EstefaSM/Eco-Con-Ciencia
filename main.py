@@ -4,4 +4,5 @@
 
 #from analysis.analisisCalidadAgua import *
 
-from analysis.analisisSiembra import *
+from analysis.tablaSiembra import *
+from analysis.analisisCalidadAgua import *

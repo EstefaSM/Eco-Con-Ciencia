@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Table } from 'react-bootstrap';
 import axios from 'axios';
+import siembra from '../img/siembra_plot.png'
 
 const Siembra = () => {
     const [data, setData] = useState([]);
@@ -41,7 +42,7 @@ const Siembra = () => {
                     </Table>
                 </div>
                 <div className='col-md-6'>
-                    
+                <img src={siembra} className="card-img-top"  alt="Foto del testimonio" />
                 </div>
             </div>
         </div>

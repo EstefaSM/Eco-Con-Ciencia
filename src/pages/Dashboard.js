@@ -12,7 +12,7 @@ const Dashboard = () => {
       <h1>Calidad del Aire</h1>
       <h1>Calidad del Aire</h1>
       {/* <CalidadAire /> */}
-      <Siembra />
+      {/* <Siembra /> */}
     </div>
   );
 };
